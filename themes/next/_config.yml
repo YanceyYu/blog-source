@@ -14,7 +14,7 @@ keywords: "Yancey"
 rss: 
 
 # Specify the date when the site was setup
-since: 2014
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -44,7 +44,6 @@ menu:
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
-#swiftype_key: F1mVLd_RPaPM-WhSr4A4 
   
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -138,6 +137,7 @@ font:
 social:
   GitHub: https://github.com/YanceyYu
   weibo: http://weibo.com/345911205
+  NeteaseMusic: http://music.163.com/#/user/home?id=40370428
   #zhihu: http://www.zhihu.com/people/lippi-ouyang
   #Others:
 
@@ -159,7 +159,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/avatar.gif
+avatar: /images/suan.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -204,11 +204,8 @@ sidebar:
 links_title: 友情链接 
 # # links
 links:
-   Qisen Tang: http://www.woaitqs.cc/
-   szhshp的博客: http://szhshp.org
-   JuniorCoder: http://python.zhangwei.website
-   Hippo: http://hippo-jessy.com
-   友链出租: https://www.zhihu.com/people/lippi-ouyang    
+   玩转北京: http://51wzbj.com
+   纯洁的微笑的博客: http://www.ityouknow.com/
 link_icons:
   enable: true  
 # ---------------------------------------------------------------
@@ -260,7 +257,7 @@ word_count: true
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true 
-  image: /images/avatar.jpg
+  image: /images/suan.jpg
 
 # Code Highlight theme
 # Available value:
@@ -281,8 +278,8 @@ mathjax:
 
 
 # Swiftype Search API Key
-#swiftype_key:
 #swiftype_key: fLM9qfxyerC6njvM7usy
+#swiftype_key: F1mVLd_RPaPM-WhSr4A4
 
 # Baidu Analytics ID
 baidu_analytics: 340874ba9357cbe81570aa4ac1185941
@@ -498,3 +495,7 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+# Local search
+local_search:
+  enable: true
