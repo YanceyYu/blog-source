@@ -5,7 +5,7 @@ categories: java
 tags: spring boot
 ---
 ## 添加maven依赖
-```
+``` xml
 <dependency>
  <groupId>org.springframework.boot</groupId>
  <artifactId>spring-boot-starter-activemq</artifactId>
@@ -28,7 +28,7 @@ spring.activemq.pool.enabled=false
 ```
 <!-- more -->
 ## 定义消息队列QUEUE
-```
+``` java
 package com.activemq.queue;
 import javax.jms.Queue;
 import org.apache.activemq.command.ActiveMQQueue;
@@ -52,7 +52,7 @@ public class QueueConfig {
 ```
 
 ## 消息生产者
-```
+``` java
 package com.hgxh.trade.service.impl;
 
 import java.util.Map;
@@ -103,7 +103,7 @@ public class AcitveMqServiceImpl implements AcitveMqService {
 ```
 
 ## 消息消费者
-```
+``` java
 package com.hgxh.trade.activemq.listener;
 
 import java.util.Map;

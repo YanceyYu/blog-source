@@ -20,7 +20,7 @@ since: 2017
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -159,7 +159,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/suan.jpg
+avatar: /images/garlic.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -239,7 +239,7 @@ post_meta:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: 🐶 您的支持将鼓励我继续创作 🐶
+#reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 #wechatpay: /images/wechat-reward-img.jpg
 #alipay: /images/alipay-reward-img.jpg
 
@@ -257,7 +257,7 @@ word_count: true
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true 
-  image: /images/suan.jpg
+  image: /images/garlic.jpg
 
 # Code Highlight theme
 # Available value:
@@ -282,7 +282,7 @@ mathjax:
 #swiftype_key: F1mVLd_RPaPM-WhSr4A4
 
 # Baidu Analytics ID
-baidu_analytics: 340874ba9357cbe81570aa4ac1185941
+#baidu_analytics: 340874ba9357cbe81570aa4ac1185941
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -298,7 +298,7 @@ baidu_analytics: 340874ba9357cbe81570aa4ac1185941
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2138372
 
 # Baidu Share
 # Available value:
@@ -306,11 +306,13 @@ baidu_analytics: 340874ba9357cbe81570aa4ac1185941
 # Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
+#baidushare: true
 
 # Share
 #jiathis:
 # Warning: JiaThis does not support https.
 #add_this_id:
+jiathis: true
 
 # Share
 #duoshuo_share: true
@@ -373,16 +375,16 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_header: <i class="fa fa-user"></i> 本站访客数
+  site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_header: <i class="fa fa-eye"></i> 本站总访问量
+  site_pv_footer: 次
   # custom pv span for one page only
   page_pv: false
-  page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_header: <i class="fa fa-file-o"></i> 本文总阅读量
+  page_pv_footer: 次
 
 
 # Tencent analytics ID
@@ -433,7 +435,7 @@ use_motion: true
 fancybox: true
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
