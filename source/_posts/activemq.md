@@ -26,7 +26,7 @@ spring.activemq.in-memory=true
 # 是否创建PooledConnectionFactory，而非ConnectionFactory，默认false
 spring.activemq.pool.enabled=false
 ```
-
+<!-- more -->
 ## 定义消息队列QUEUE
 ```
 package com.activemq.queue;

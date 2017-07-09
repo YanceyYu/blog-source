@@ -286,7 +286,7 @@ baidu_analytics: 340874ba9357cbe81570aa4ac1185941
 
 # Duoshuo ShortName
 #duoshuo_shortname:
-duoshuo_shortname: ezlippi 
+
 # Disqus
 #disqus_shortname:
 
@@ -313,8 +313,8 @@ duoshuo_shortname: ezlippi
 #add_this_id:
 
 # Share
-duoshuo_share: true
-duoshuo_hotartical: true
+#duoshuo_share: true
+#duoshuo_hotartical: true
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
@@ -333,10 +333,10 @@ duoshuo_hotartical: true
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
+#duoshuo_info:
+  #ua_enable: true
+  #admin_enable: false
+  #user_id: 0
   #admin_nickname: Author
 
 
@@ -362,9 +362,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: tVibkuMtHUx9GNcdbskmFfsO-gzGzoHsz
+  app_key: R454g2nnzwPlNm2aIk1Jbt27
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
