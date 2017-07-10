@@ -1,8 +1,8 @@
 ---
 title: 基于Hexo搭建GitHub博客
 date: 2017-07-10 17:11:23
-categories: GitHub
-tags: GitHub,Blog
+categories: 搭建博客
+tags: [GitHub,Hexo]
 ---
 ## 关于为何自己搭建博客
 为什么要自己建站搭建博客，在网上看到说喜欢写Blog的人，会经历三个阶段。
@@ -168,5 +168,5 @@ $ hexo deploy
 部署成功后我们可以通过访问`https://yanceyyu.github.io`来查看自己的博客。
 >yanceyyu.github.io为你之前创建的仓库名，yanceyyu为你自己GitHub昵称。
 
-这样我们就建立好一个简单的博客了，接下来为大家讲解怎么更改域名和更换主题。
+这样我们就建立好一个简单的博客了，接下来为大家讲解怎么[更改域名](http://yanceyyu.top/2017/07/10/addon-domain)和更换主题。
 
