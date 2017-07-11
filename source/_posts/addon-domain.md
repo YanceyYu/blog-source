@@ -17,7 +17,7 @@ tags:
 主机记录分别为`@`何`www`，这样通过`http://yanceyyu.top`和`http://www.yanceyyu.top`都可以访问，
 记录类型都为`CNAME`域名指定，也可以选择`A`IP指定，
 记录值都为`yanceyyu.github.io.`，注意链接后面有个“.”，其他为默认即可。
-![](/images/addon-domain/1499697205505dnspod-add-record.jpg)
+![](/images/addon-domain/dnspod-add-record.jpg)
 
 ## 修改域名DNS
 然后我们访问域名网站，找到刚才申请的域名，我这里用的是[阿里云的域名控制台](https://netcn.console.aliyun.com/core/domain/list)，点击管理。
