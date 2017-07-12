@@ -201,8 +201,8 @@ social: #侧边栏个人站点链接
 links_title: #侧边栏友情链接
 avatar: #头像
 ```
-更多配置请参考[NexT主题配置](http://theme-next.iissnan.com/theme-settings.html)。
-
+**更多配置请参考[NexT主题配置](http://theme-next.iissnan.com/theme-settings.html)
+**
 ## 第三方服务
 ### 评论系统
 [DISQUS](www.disqus.com/)，第三方社会化评论系统最出名的要数DISQUS了，无奈现在国内已经被墙了。
@@ -276,19 +276,14 @@ busuanzi_count:
 
 #### 阅读次数统计（LeanCloud)
 [LeanCloud](https://leancloud.cn/)
-进入[注册页面](https://leancloud.cn/login.html#/signup)注册。完成邮箱激活后，点击头像，进入`控制台`页面，如下：
-
+进入[注册页面](https://leancloud.cn/login.html#/signup)注册。完成邮箱激活后，点击头像，进入`控制台`页面，点击`应用->创建新应用`。
 ![](/images/change-theme/leancloud-console.jpg)
 
-创建新应用
-创建一个新应用，点击应用进入；
-创建名称为`Counter`的Class
-
+创建完应用，点击应用，`创建 Class`名称为`Counter`。
 ![](/images/change-theme/leancloud-create-class1.jpg)
-
 ![](/images/change-theme/leancloud-create-class2.jpg)
 
-点击`设置->应用Key`获取秘钥信息
+点击`设置->应用Key`获取秘钥信息。
 ![](/images/change-theme/leancloud-set-key.jpg)
 
 修改**主题配置文件**，添加/修改如下：
@@ -309,16 +304,16 @@ leancloud_visitors:
 
 ### 站点地图（sitemap）
 #### 什么是sitemap
-可方便网站管理员通知搜索引擎他们网站上有哪些可供抓取的网页。
+可方便网站管理员通知搜索引擎他们网站上有哪些可供抓取的网页，简单的说就是让百度和谷歌可以搜到我们的博客。
 
 #### 博客中添加对sitemap的支持
-在Hexo博客根目录，分别用下面两个命令来安装针对谷歌和百度的插件
+在Hexo博客根目录，分别用下面两个命令来安装针对谷歌和百度的插件。
 ```
 npm install hexo-generator-sitemap --save
 npm install hexo-generator-baidu-sitemap --save
 ```
 
-在站点配置文件`_config.yml`中，添加如下内容
+在站点配置文件`_config.yml`中，添加如下内容。
 ``` yml
 # sitemap
 sitemap:
@@ -330,7 +325,7 @@ baidusitemap:
 修改完后，输入 `hexo server`,在浏览器输入`http://localhost:4000/sitemap.xml` 就可以查看站点地图效果。
 
 #### 让百度收录我们的博客
-进入[百度站长工具](http://zhanzhang.baidu.com/dashboard/index),点击添加站点
+进入[百度站长工具](http://zhanzhang.baidu.com/dashboard/index)，点击添加站点
 ![](/images/change-theme/baidu-add-site.jpg)
 按照步骤添加站点，第一步：输入网站
 ![](/images/change-theme/baidu-add-site1.jpg)
@@ -344,23 +339,29 @@ baidusitemap:
 这里我选的`CNAME验证`,需要去你的域名解析网站添加一条记录，主机记录为上一步`CNAME验证`你的域名前的字符串。
 ![](/images/change-theme/baidu-add-cname.jpg)
 
->`验证完成后，将会认为您是网站的拥有者。网站定期检查验证记录为保持验证通过的状态，请保留验证的文件、html标签或CNAME记录。
+>验证完成后，将会认为您是网站的拥有者。网站定期检查验证记录为保持验证通过的状态，请保留验证的文件、html标签或CNAME记录。
 
-选择`网页抓取->链接提交`，这里推荐自动推送和sitemap
+选择`网页抓取->链接提交`，这里推荐自动推送和sitemap。
 ![](/images/change-theme/baidu-webpage-crawling.jpg)
 
-这里选择的自动`提交->sitemap`
+这里选择的自动`提交->sitemap`。
 ![](/images/change-theme/baidu-site.jpg)
 
-添加完会在下方看到一条数据，处于等待状态，过几天就正常了。
+添加完会在下方看到一条数据，处于等待状态。
 ![](/images/change-theme/baidu-site-status.jpg)
 
-#### 让谷歌收录我们的博客
-谷歌操作比较简单，就是向[Google站长工具](https://www.google.com/webmasters/tools)提交sitemap。
-登录Google账号，添加了站点验证通过后，选择站点，之后在`抓取 -> 站点地图 -> 添加/测试站点地图`，如下图：
+>对于新站，一般7天左右收录，这期间需要经常更新一下原创文章。如果说超过半个月没有收录，那么就要和百度反馈了。
 
+#### 让谷歌收录我们的博客
+进入[Google站长工具](https://www.google.com/webmasters/tools)，登录Google账号后点击`添加属性`，填入自己的博客域名。
 ![](/images/change-theme/google-add-site.jpg)
 
-谷歌提交后立马就能搜索到我的博客了，效率比百度快多了。
+然后验证网站的所有权，这里有很多种方法，我选择的是`备用方法->域名提供商->添加 CNAME 记录`，和之前百度站点验证的方法一样，需要向解析域名网站添加一条记录。
+![](/images/change-theme/google-verify-site.jpg)
 
-更多第三方服务请参考[NexT第三方服务集成](http://theme-next.iissnan.com/third-party-services.html)。
+最后选择菜单栏`抓取->站点地图`，在右侧添加自己博客的`sitemap.xml`就OK了。
+![](/images/change-theme/google-add-sitemap.jpg)验证完成后
+
+>谷歌比百度容易收录，对于新站，一般2-4天就可以完全收录。
+
+**更多第三方服务请参考[NexT第三方服务集成](http://theme-next.iissnan.com/third-party-services.html)**
