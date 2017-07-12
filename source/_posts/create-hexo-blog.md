@@ -3,6 +3,8 @@ title: 基于Hexo搭建GitHub博客
 date: 2017-07-10 17:11:23
 categories: 搭建博客
 tags: [GitHub,Hexo]
+sticky: 
+top: 
 ---
 ## 关于为何自己搭建博客
 为什么要自己建站搭建博客，在网上看到说喜欢写Blog的人，会经历三个阶段。
@@ -95,12 +97,12 @@ $ npm install
 #### 修改网站相关信息
 ``` yml
 # Site
-title: Yancey Blog
-subtitle: the blog of yancey start from zero
-description: code like poem, write my own life
-author: Yancey Yu
-language: zh-Hans
-timezone: Asia/Shanghai
+title: Yancey Blog #网站标题
+subtitle: the blog of yancey start from zero  #网站副标题
+description: code like poem, write my own life #网站描述
+author: Yancey Yu #网站作者
+language: zh-Hans #网站语言
+timezone: Asia/Shanghai #网站时区
 ```
 
 >**注意**：每一项的填写，配置文件中每项配置其":"后面必须有一个空格。
@@ -109,6 +111,7 @@ timezone: Asia/Shanghai
 ``` yml
 url: http://yanceyyu.top
 ```
+>这项可暂不配置，绑定域名后，想创建sitemap.xml需要配置该项。
 
 #### 配置部署信息
 ``` yml

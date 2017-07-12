@@ -13,3 +13,7 @@ date: 2017-07-06 18:05:56
 伪文艺男一枚
 亦Code Monkey一只
 Email：yuyang_053@163.com
+
+
+<!-- 显示播放器 -->
+<embed src="//music.163.com/style/swf/widget.swf?sid=20954317&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
