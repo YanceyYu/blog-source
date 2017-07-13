@@ -1,5 +1,5 @@
 ---
-title: GitHub Pages绑定自己的域名
+title: GitHub Pages绑定自己的域名（二）
 date: 2017-07-10 23:16:11
 categories: 搭建博客
 tags: 
