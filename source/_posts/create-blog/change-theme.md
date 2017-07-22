@@ -1,5 +1,5 @@
 ---
-title: 更换配置Hexo主题并集成第三方服务
+title: 更换配置Hexo主题并集成第三方服务（三）
 date: 2017-07-11 22:27:53
 categories: 搭建博客
 tags: [Hexo,NexT]
