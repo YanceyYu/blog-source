@@ -32,32 +32,32 @@ iPic 带给你从未有过的插图体验。
 
 ### 新建空间
 登录后选择左侧`对象存储`。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/4IiC4k8KgC.png)
+![mark](/images/blog/170713/4IiC4k8KgC.png)
 
 点击左侧`新建存储空间`。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/5CeBdg206L.png)
+![mark](/images/blog/170713/5CeBdg206L.png)
 
 按照要求填写，`访问控制`我们选择`公开工具 `，这样通过外链可以直接访问，点击`确认创建`，记住`存储空间名称`，稍后配置MPic会用到。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/1lGbLl3l2g.png)
+![mark](/images/blog/170713/1lGbLl3l2g.png)
 
 ### 找到外链域名和密钥
 存储空间创建好后点击`内容管理`会看到`外链默认域名`，稍后配置MPic会用到。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/3B176ka678.png)
+![mark](/images/blog/170713/3B176ka678.png)
 
 点击右上角`个人面板`选择`密钥管理`。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/L7gG3me3f9.png)
+![mark](/images/blog/170713/L7gG3me3f9.png)
 
 打开后我们可以看到`AK(AccessKey)`和`SK(SecretKey)`，稍后配置MPic会用到。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/6361gAm69c.png)
+![mark](/images/blog/170713/6361gAm69c.png)
 
 ## 下载安装配置MPic
 [MPic官网](http://mpic.lzhaofu.cn/)下载安装包。安装包是一个压缩包，解压后打开`MPic.exe`，可以看到MPic的主界面。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/3HFG3gbhJI.png)
+![mark](/images/blog/170713/3HFG3gbhJI.png)
 
 点击左上角`设置账号`，这里的七牛云配置为上一步所说的一些信息，填入即可，图片瘦身可选，点击保存后我们就可以用了。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/eDCGjCK2fk.png)
+![mark](/images/blog/170713/eDCGjCK2fk.png)
 
 直接拖拽图片到主界面就可以上传图片了，图片直接上传到七牛云，点击复制直接复制为Markdown格式。
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170713/KA8kcfeL4g.png)
+![mark](/images/blog/170713/KA8kcfeL4g.png)
 
 默认设置是MarkDown格式、复制图片自动上传、截图自动上传，可以在Windows右下角图标上点击右键进行设置。

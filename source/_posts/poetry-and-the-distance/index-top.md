@@ -6,7 +6,7 @@ tags: 冯唐
 sticky:
 top: 1
 ---
-![mark](http://oszefrx4t.bkt.clouddn.com/blog/170712/gJ1g4398i4.jpg?imageslim)
+![](/images/blog/170712/gJ1g4398i4.jpg)
 
 这样看你
 用所有眼睛和所有距离
